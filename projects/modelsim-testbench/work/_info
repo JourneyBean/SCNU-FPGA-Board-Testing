@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dZ:/projects/VHDL/TestForSCNUBoard
+vbcd2seg_ca
+Z0 !s110 1596977652
+!i10b 1
+!s100 haY`X9ZF0JkcbPC=d=[8h2
+I>K;7LHWPdIhDGb>BV<kV:0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dZ:/projects/scnu-fpga-board-testing/projects/modelsim-testbench
+Z3 w1596976573
+Z4 8Z:/projects/scnu-fpga-board-testing/source/lib/seg.v
+Z5 FZ:/projects/scnu-fpga-board-testing/source/lib/seg.v
+L0 39
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1596977652.000000
+Z8 !s107 Z:/projects/scnu-fpga-board-testing/source/lib/seg.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/lib/seg.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vbcd2seg_ck
+R0
+!i10b 1
+!s100 W5]BdUd7Z?ElAkZO5:@LT0
+InngG<N5W8?6B^oz>mH;PG0
+R1
+R2
+R3
+R4
+R5
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vboard_test
+Z12 !s110 1596977651
+!i10b 1
+!s100 6mAgK1EB9@G^DQe98lWUk1
+I5YXXT7I;YIAjSmVKBCdz[2
+R1
+R2
+w1596975463
+8Z:/projects/scnu-fpga-board-testing/source/board_test.v
+FZ:/projects/scnu-fpga-board-testing/source/board_test.v
+L0 8
+R6
+r1
+!s85 0
+31
+!s108 1596977650.000000
+!s107 Z:/projects/scnu-fpga-board-testing/source/board_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/board_test.v|
+!i113 0
+R10
+R11
+vclkdiv
+R12
+!i10b 1
+!s100 Qjnl3InQla9Ec2D[TMlhR1
+IW^;b2iZEWZzk3GXNjb6JG3
+R1
+R2
+w1596976307
+8Z:/projects/scnu-fpga-board-testing/source/lib/clkdiv.v
+FZ:/projects/scnu-fpga-board-testing/source/lib/clkdiv.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z13 !s108 1596977651.000000
+!s107 Z:/projects/scnu-fpga-board-testing/source/lib/clkdiv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/lib/clkdiv.v|
+!i113 0
+R10
+R11
+vkey_handler
+R0
+!i10b 1
+!s100 ?Q8JJFDG`8CnMiODko15i2
+IddeNS]B4ROg5Adj7>6Q@]0
+R1
+R2
+w1596976313
+8Z:/projects/scnu-fpga-board-testing/source/lib/key_handler.v
+FZ:/projects/scnu-fpga-board-testing/source/lib/key_handler.v
+L0 7
+R6
+r1
+!s85 0
+31
+R13
+!s107 Z:/projects/scnu-fpga-board-testing/source/lib/key_handler.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/lib/key_handler.v|
+!i113 0
+R10
+R11
+vseg_display
+R0
+!i10b 1
+!s100 YoogE8V`=jOO<SFj_K]WK0
+IUeT?aPHa8gWjQT`ik=ecY3
+R1
+R2
+R3
+R4
+R5
+L0 72
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtest_board_test
+R0
+!i10b 1
+!s100 >EG]`IElZCOm2TkmOU91a0
+IG@AAzRI[Q^D]F?JFP=2?:1
+R1
+R2
+w1596976291
+8Z:/projects/scnu-fpga-board-testing/source/testbench/test_board_test.v
+FZ:/projects/scnu-fpga-board-testing/source/testbench/test_board_test.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 Z:/projects/scnu-fpga-board-testing/source/testbench/test_board_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/testbench/test_board_test.v|
+!i113 0
+R10
+R11
+vtest_clkdiv
+Z14 !s110 1596977653
+!i10b 1
+!s100 5IXKbXZS01oVReY3YOg:o3
+I?Pz_k<gDhGM@l7>LmK8WW2
+R1
+R2
+w1596976296
+8Z:/projects/scnu-fpga-board-testing/source/testbench/test_clkdiv.v
+FZ:/projects/scnu-fpga-board-testing/source/testbench/test_clkdiv.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z15 !s108 1596977653.000000
+!s107 Z:/projects/scnu-fpga-board-testing/source/testbench/test_clkdiv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/testbench/test_clkdiv.v|
+!i113 0
+R10
+R11
+vtest_seg
+R14
+!i10b 1
+!s100 <^EhMbz7`2MgECoGQikGc0
+ICWJI3IR;_4A6`VJ^4N4WT1
+R1
+R2
+w1596976298
+8Z:/projects/scnu-fpga-board-testing/source/testbench/test_seg.v
+FZ:/projects/scnu-fpga-board-testing/source/testbench/test_seg.v
+L0 3
+R6
+r1
+!s85 0
+31
+R15
+!s107 Z:/projects/scnu-fpga-board-testing/source/testbench/test_seg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|Z:/projects/scnu-fpga-board-testing/source/testbench/test_seg.v|
+!i113 0
+R10
+R11

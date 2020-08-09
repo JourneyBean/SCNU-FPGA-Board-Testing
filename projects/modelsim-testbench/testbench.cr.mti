@@ -1,0 +1,53 @@
+../../source/testbench/test_clkdiv.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/testbench/test_clkdiv.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module test_clkdiv
+
+Top level modules:
+	test_clkdiv
+
+} {} {}} ../../source/lib/clkdiv.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/lib/clkdiv.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module clkdiv
+
+Top level modules:
+	clkdiv
+
+} {} {}} ../../source/board_test.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/board_test.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module board_test
+
+Top level modules:
+	board_test
+
+} {} {}} ../../source/lib/key_handler.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/lib/key_handler.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module key_handler
+
+Top level modules:
+	key_handler
+
+} {} {}} ../../source/testbench/test_seg.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/testbench/test_seg.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module test_seg
+
+Top level modules:
+	test_seg
+
+} {} {}} ../../source/testbench/test_board_test.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/testbench/test_board_test.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module test_board_test
+
+Top level modules:
+	test_board_test
+
+} {} {}} ../../source/lib/seg.v {1 {vlog -work work -vopt -stats=none Z:/projects/scnu-fpga-board-testing/source/lib/seg.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module bcd2seg_ck
+-- Compiling module bcd2seg_ca
+-- Compiling module seg_display
+
+Top level modules:
+	bcd2seg_ck
+	seg_display
+
+} {} {}}
