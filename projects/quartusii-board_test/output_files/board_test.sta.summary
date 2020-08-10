@@ -3,67 +3,67 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk_50mhz'
-Slack : -5.018
-TNS   : -458.800
-
-Type  : Slow 1200mV 85C Model Setup 'clkdiv:div_50m_1|clk_out'
-Slack : -2.642
-TNS   : -42.289
+Slack : -4.769
+TNS   : -417.083
 
 Type  : Slow 1200mV 85C Model Setup 'clkdiv:div_50m_300|clk_out'
-Slack : -2.318
-TNS   : -25.319
+Slack : -2.530
+TNS   : -30.032
+
+Type  : Slow 1200mV 85C Model Setup 'clkdiv:div_50m_1|clk_out'
+Slack : -2.491
+TNS   : -38.011
 
 Type  : Slow 1200mV 85C Model Setup 'clkdiv:div_50m_100|clk_out'
-Slack : -1.086
-TNS   : -4.097
+Slack : -0.200
+TNS   : -0.200
 
 Type  : Slow 1200mV 85C Model Hold 'clk_50mhz'
-Slack : -0.218
-TNS   : -0.330
+Slack : -0.184
+TNS   : -0.416
 
 Type  : Slow 1200mV 85C Model Hold 'clkdiv:div_50m_1|clk_out'
-Slack : 0.229
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'clkdiv:div_50m_100|clk_out'
-Slack : 0.453
+Slack : 0.397
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clkdiv:div_50m_300|clk_out'
-Slack : 0.453
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkdiv:div_50m_100|clk_out'
+Slack : 0.509
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'clk_50mhz'
-Slack : -3.234
-TNS   : -319.628
+Slack : -2.868
+TNS   : -278.121
 
 Type  : Slow 1200mV 85C Model Recovery 'clkdiv:div_50m_100|clk_out'
-Slack : -2.737
-TNS   : -32.835
+Slack : -2.743
+TNS   : -24.675
 
 Type  : Slow 1200mV 85C Model Recovery 'clkdiv:div_50m_300|clk_out'
-Slack : -2.275
-TNS   : -15.919
+Slack : -2.567
+TNS   : -28.237
 
 Type  : Slow 1200mV 85C Model Recovery 'clkdiv:div_50m_1|clk_out'
-Slack : -1.949
-TNS   : -46.776
+Slack : -1.722
+TNS   : -41.328
 
 Type  : Slow 1200mV 85C Model Removal 'clkdiv:div_50m_1|clk_out'
-Slack : 1.902
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'clkdiv:div_50m_300|clk_out'
-Slack : 2.242
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'clkdiv:div_50m_100|clk_out'
-Slack : 2.875
+Slack : 1.689
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'clk_50mhz'
-Slack : 3.239
+Slack : 2.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clkdiv:div_50m_300|clk_out'
+Slack : 2.570
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clkdiv:div_50m_100|clk_out'
+Slack : 2.874
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50mhz'
@@ -76,74 +76,74 @@ TNS   : -35.688
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkdiv:div_50m_300|clk_out'
 Slack : -1.487
-TNS   : -19.331
+TNS   : -25.279
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkdiv:div_50m_100|clk_out'
 Slack : -1.487
-TNS   : -17.844
+TNS   : -13.383
 
 Type  : Slow 1200mV 0C Model Setup 'clk_50mhz'
-Slack : -4.553
-TNS   : -419.740
-
-Type  : Slow 1200mV 0C Model Setup 'clkdiv:div_50m_1|clk_out'
-Slack : -2.278
-TNS   : -36.227
+Slack : -4.511
+TNS   : -388.820
 
 Type  : Slow 1200mV 0C Model Setup 'clkdiv:div_50m_300|clk_out'
-Slack : -2.102
-TNS   : -23.080
+Slack : -2.368
+TNS   : -27.162
+
+Type  : Slow 1200mV 0C Model Setup 'clkdiv:div_50m_1|clk_out'
+Slack : -2.085
+TNS   : -31.467
 
 Type  : Slow 1200mV 0C Model Setup 'clkdiv:div_50m_100|clk_out'
-Slack : -0.877
-TNS   : -3.082
+Slack : -0.096
+TNS   : -0.096
 
 Type  : Slow 1200mV 0C Model Hold 'clk_50mhz'
-Slack : -0.179
-TNS   : -0.264
+Slack : -0.135
+TNS   : -0.282
 
 Type  : Slow 1200mV 0C Model Hold 'clkdiv:div_50m_1|clk_out'
-Slack : 0.123
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'clkdiv:div_50m_100|clk_out'
-Slack : 0.401
+Slack : 0.273
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clkdiv:div_50m_300|clk_out'
 Slack : 0.401
 TNS   : 0.000
 
+Type  : Slow 1200mV 0C Model Hold 'clkdiv:div_50m_100|clk_out'
+Slack : 0.480
+TNS   : 0.000
+
 Type  : Slow 1200mV 0C Model Recovery 'clk_50mhz'
-Slack : -2.830
-TNS   : -279.632
+Slack : -2.497
+TNS   : -241.741
 
 Type  : Slow 1200mV 0C Model Recovery 'clkdiv:div_50m_100|clk_out'
-Slack : -2.367
-TNS   : -28.401
+Slack : -2.369
+TNS   : -21.318
 
 Type  : Slow 1200mV 0C Model Recovery 'clkdiv:div_50m_300|clk_out'
-Slack : -1.918
-TNS   : -13.426
+Slack : -2.201
+TNS   : -24.209
 
 Type  : Slow 1200mV 0C Model Recovery 'clkdiv:div_50m_1|clk_out'
-Slack : -1.599
-TNS   : -38.376
+Slack : -1.375
+TNS   : -33.000
 
 Type  : Slow 1200mV 0C Model Removal 'clkdiv:div_50m_1|clk_out'
-Slack : 1.680
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'clkdiv:div_50m_300|clk_out'
-Slack : 2.012
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'clkdiv:div_50m_100|clk_out'
-Slack : 2.624
+Slack : 1.471
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'clk_50mhz'
-Slack : 2.961
+Slack : 2.185
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clkdiv:div_50m_300|clk_out'
+Slack : 2.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clkdiv:div_50m_100|clk_out'
+Slack : 2.626
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50mhz'
@@ -152,83 +152,83 @@ TNS   : -150.213
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkdiv:div_50m_1|clk_out'
 Slack : -1.487
-TNS   : -35.688
+TNS   : -36.768
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkdiv:div_50m_300|clk_out'
 Slack : -1.487
-TNS   : -19.331
+TNS   : -25.279
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkdiv:div_50m_100|clk_out'
 Slack : -1.487
-TNS   : -17.844
+TNS   : -13.383
 
 Type  : Fast 1200mV 0C Model Setup 'clk_50mhz'
-Slack : -1.567
-TNS   : -135.563
+Slack : -1.456
+TNS   : -118.062
 
 Type  : Fast 1200mV 0C Model Setup 'clkdiv:div_50m_1|clk_out'
-Slack : -0.607
-TNS   : -5.655
+Slack : -0.556
+TNS   : -4.583
 
 Type  : Fast 1200mV 0C Model Setup 'clkdiv:div_50m_300|clk_out'
-Slack : -0.464
-TNS   : -3.797
+Slack : -0.506
+TNS   : -4.387
 
 Type  : Fast 1200mV 0C Model Setup 'clkdiv:div_50m_100|clk_out'
-Slack : 0.077
+Slack : 0.496
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk_50mhz'
-Slack : -0.242
-TNS   : -0.519
+Slack : -0.220
+TNS   : -0.618
 
 Type  : Fast 1200mV 0C Model Hold 'clkdiv:div_50m_1|clk_out'
-Slack : 0.024
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'clkdiv:div_50m_100|clk_out'
-Slack : 0.186
+Slack : 0.137
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clkdiv:div_50m_300|clk_out'
 Slack : 0.186
 TNS   : 0.000
 
+Type  : Fast 1200mV 0C Model Hold 'clkdiv:div_50m_100|clk_out'
+Slack : 0.199
+TNS   : 0.000
+
 Type  : Fast 1200mV 0C Model Recovery 'clk_50mhz'
-Slack : -0.909
-TNS   : -89.709
+Slack : -0.736
+TNS   : -70.431
 
 Type  : Fast 1200mV 0C Model Recovery 'clkdiv:div_50m_100|clk_out'
-Slack : -0.717
-TNS   : -8.604
+Slack : -0.716
+TNS   : -6.438
 
 Type  : Fast 1200mV 0C Model Recovery 'clkdiv:div_50m_300|clk_out'
-Slack : -0.540
-TNS   : -3.780
+Slack : -0.638
+TNS   : -7.016
 
 Type  : Fast 1200mV 0C Model Recovery 'clkdiv:div_50m_1|clk_out'
-Slack : -0.359
-TNS   : -8.616
+Slack : -0.294
+TNS   : -7.056
 
 Type  : Fast 1200mV 0C Model Removal 'clkdiv:div_50m_1|clk_out'
-Slack : 0.829
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'clkdiv:div_50m_300|clk_out'
-Slack : 1.017
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'clkdiv:div_50m_100|clk_out'
-Slack : 1.278
+Slack : 0.771
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'clk_50mhz'
-Slack : 1.388
+Slack : 1.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clkdiv:div_50m_300|clk_out'
+Slack : 1.130
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clkdiv:div_50m_100|clk_out'
+Slack : 1.274
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50mhz'
 Slack : -3.000
-TNS   : -108.371
+TNS   : -108.655
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkdiv:div_50m_1|clk_out'
 Slack : -1.000
@@ -236,10 +236,10 @@ TNS   : -24.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkdiv:div_50m_300|clk_out'
 Slack : -1.000
-TNS   : -13.000
+TNS   : -17.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkdiv:div_50m_100|clk_out'
 Slack : -1.000
-TNS   : -12.000
+TNS   : -9.000
 
 ------------------------------------------------------------

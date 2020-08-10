@@ -67,34 +67,40 @@ always @ (posedge clk_1hz or negedge rst_) begin
 end
 
 /* -------- 按键事件 -------- */
-always @ (posedge clk_100hz or negedge rst_) begin
-    // 重置
+always @ (posedge clk_300hz or negedge rst_) begin
+    // 重置信号
     if (~rst_) begin
         led[7:0] <= 8'b0000_0000;
         ctl_counton <= 1'b0;
         key_led_last <= 1'b0;
         key_pause_last <= 1'b0;
     end
-    // led按键按下
-    else if (key_led) begin
-        key_led_last <= key_led;
-        // 上升沿
-        if (~key_led_last) begin
-            led[7:0] <= ~led[7:0];
-        end
-    end
-    // 暂停按键按下
-    else if (key_pause) begin
-        // 上升沿
-        if (~key_pause_last) begin
-            ctl_counton <= ~ctl_counton;
-        end
-    end
-    // 没有任何按键按下
+    // 其他按键
     else begin
-        key_led_last <= 1'b0;
-        key_pause_last <= 1'b0;
+        // led按键
+        if (key_led) begin
+            key_led_last <= key_led;        // 记录按下状态
+            // 取上升沿
+            if (~key_led_last) begin
+                led[7:0] <= ~led[7:0];      // 按键处理
+            end
+        end
+        else begin
+            key_led_last <= 1'b0;           // 记录弹起状态
+        end
+        // 暂停按键
+        if (key_pause) begin
+            key_pause_last <= key_pause;
+            // 取上升沿
+            if (~key_pause_last) begin
+                ctl_counton <= ~ctl_counton;
+            end
+        end
+        else begin
+            key_pause_last <= 1'b0;
+        end
     end
+    
 end
 
 endmodule

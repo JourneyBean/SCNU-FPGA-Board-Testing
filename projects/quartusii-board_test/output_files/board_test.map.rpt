@@ -1,5 +1,5 @@
 Analysis & Synthesis report for board_test
-Sun Aug 09 20:18:50 2020
+Mon Aug 10 11:24:47 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -47,15 +47,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Aug 09 20:18:50 2020            ;
+; Analysis & Synthesis Status        ; Successful - Mon Aug 10 11:24:47 2020            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; board_test                                       ;
 ; Top-level Entity Name              ; board_test                                       ;
 ; Family                             ; Cyclone IV E                                     ;
-; Total logic elements               ; 237                                              ;
-;     Total combinational functions  ; 231                                              ;
-;     Dedicated logic registers      ; 148                                              ;
-; Total registers                    ; 148                                              ;
+; Total logic elements               ; 236                                              ;
+;     Total combinational functions  ; 230                                              ;
+;     Dedicated logic registers      ; 149                                              ;
+; Total registers                    ; 149                                              ;
 ; Total pins                         ; 31                                               ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 0                                                ;
@@ -160,24 +160,25 @@ applicable agreement for further details.
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
+;     Processor 2            ; < 0.1%      ;
+;     Processors 3-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                   ;
-+----------------------------------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
-; File Name with User-Entered Path                         ; Used in Netlist ; File Type              ; File Name with Absolute Path                             ; Library ;
-+----------------------------------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
-; Z:/projects/scnu-fpga-board-testing/source/key_handler.v ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/key_handler.v ;         ;
-; Z:/projects/scnu-fpga-board-testing/source/seg.v         ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/seg.v         ;         ;
-; Z:/projects/scnu-fpga-board-testing/source/clkdiv.v      ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/clkdiv.v      ;         ;
-; Z:/projects/scnu-fpga-board-testing/source/board_test.v  ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/board_test.v  ;         ;
-+----------------------------------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                               ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                 ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------+---------+
+; ../../source/lib/key_handler.v   ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/lib/key_handler.v ;         ;
+; ../../source/lib/seg.v           ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/lib/seg.v         ;         ;
+; ../../source/lib/clkdiv.v        ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/lib/clkdiv.v      ;         ;
+; ../../source/board_test.v        ; yes             ; User Verilog HDL File  ; Z:/projects/scnu-fpga-board-testing/source/board_test.v      ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------+
@@ -185,27 +186,27 @@ applicable agreement for further details.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimated Total logic elements              ; 237                      ;
+; Estimated Total logic elements              ; 236                      ;
 ;                                             ;                          ;
-; Total combinational functions               ; 231                      ;
+; Total combinational functions               ; 230                      ;
 ; Logic element usage by number of LUT inputs ;                          ;
-;     -- 4 input functions                    ; 72                       ;
-;     -- 3 input functions                    ; 31                       ;
+;     -- 4 input functions                    ; 73                       ;
+;     -- 3 input functions                    ; 29                       ;
 ;     -- <=2 input functions                  ; 128                      ;
 ;                                             ;                          ;
 ; Logic elements by mode                      ;                          ;
-;     -- normal mode                          ; 116                      ;
+;     -- normal mode                          ; 115                      ;
 ;     -- arithmetic mode                      ; 115                      ;
 ;                                             ;                          ;
-; Total registers                             ; 148                      ;
-;     -- Dedicated logic registers            ; 148                      ;
+; Total registers                             ; 149                      ;
+;     -- Dedicated logic registers            ; 149                      ;
 ;     -- I/O registers                        ; 0                        ;
 ;                                             ;                          ;
 ; I/O pins                                    ; 31                       ;
 ; Embedded Multiplier 9-bit elements          ; 0                        ;
 ; Maximum fan-out node                        ; key_handler:k_rst|uAnd~0 ;
-; Maximum fan-out                             ; 142                      ;
-; Total fan-out                               ; 1249                     ;
+; Maximum fan-out                             ; 143                      ;
+; Total fan-out                               ; 1250                     ;
 ; Average fan-out                             ; 2.83                     ;
 +---------------------------------------------+--------------------------+
 
@@ -215,12 +216,12 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                              ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------+--------------+
-; |board_test                ; 231 (29)          ; 148 (27)     ; 0           ; 0            ; 0       ; 0         ; 31   ; 0            ; |board_test                                      ; work         ;
+; |board_test                ; 230 (26)          ; 149 (28)     ; 0           ; 0            ; 0       ; 0         ; 31   ; 0            ; |board_test                                      ; work         ;
 ;    |clkdiv:div_50m_100|    ; 54 (54)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|clkdiv:div_50m_100                   ; work         ;
 ;    |clkdiv:div_50m_1|      ; 55 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|clkdiv:div_50m_1                     ; work         ;
 ;    |clkdiv:div_50m_300|    ; 55 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|clkdiv:div_50m_300                   ; work         ;
-;    |key_handler:k_led|     ; 1 (1)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|key_handler:k_led                    ; work         ;
-;    |key_handler:k_pause|   ; 1 (1)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|key_handler:k_pause                  ; work         ;
+;    |key_handler:k_led|     ; 2 (2)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|key_handler:k_led                    ; work         ;
+;    |key_handler:k_pause|   ; 2 (2)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|key_handler:k_pause                  ; work         ;
 ;    |key_handler:k_rst|     ; 2 (2)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|key_handler:k_rst                    ; work         ;
 ;    |seg_display:segdpy|    ; 34 (27)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|seg_display:segdpy                   ; work         ;
 ;       |bcd2seg_ca:segdec|  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |board_test|seg_display:segdpy|bcd2seg_ca:segdec ; work         ;
@@ -234,7 +235,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Register name                         ; Reason for Removal                     ;
 +---------------------------------------+----------------------------------------+
 ; seg_display:segdpy|cnt[3]             ; Stuck at GND due to stuck port data_in ;
-; key_pause_last                        ; Stuck at GND due to stuck port data_in ;
 ; led[1]~reg0                           ; Merged with led[0]~reg0                ;
 ; led[2]~reg0                           ; Merged with led[0]~reg0                ;
 ; led[3]~reg0                           ; Merged with led[0]~reg0                ;
@@ -242,7 +242,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; led[5]~reg0                           ; Merged with led[0]~reg0                ;
 ; led[6]~reg0                           ; Merged with led[0]~reg0                ;
 ; led[7]~reg0                           ; Merged with led[0]~reg0                ;
-; Total Number of Removed Registers = 9 ;                                        ;
+; Total Number of Removed Registers = 8 ;                                        ;
 +---------------------------------------+----------------------------------------+
 
 
@@ -251,10 +251,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 148   ;
+; Total registers                              ; 149   ;
 ; Number of registers using Synchronous Clear  ; 96    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 142   ;
+; Number of registers using Asynchronous Clear ; 143   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 33    ;
 ; Number of registers using Preset             ; 0     ;
@@ -281,8 +281,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 ; 8:1                ; 6 bits    ; 30 LEs        ; 24 LEs               ; 6 LEs                  ; Yes        ; |board_test|seg_display:segdpy|seg_cs[0] ;
 ; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |board_test|clkdiv:div_50m_300|cnt[31]   ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |board_test|clkdiv:div_50m_100|cnt[0]    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |board_test|clkdiv:div_50m_1|cnt[14]     ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |board_test|clkdiv:div_50m_1|cnt[0]      ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |board_test|clkdiv:div_50m_100|cnt[14]   ;
 ; 8:1                ; 4 bits    ; 20 LEs        ; 16 LEs               ; 4 LEs                  ; Yes        ; |board_test|seg_display:segdpy|bcd[3]    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 
@@ -341,18 +341,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Sun Aug 09 20:18:29 2020
+    Info: Processing started: Mon Aug 10 11:24:21 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off board_test -c board_test
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file z:/projects/scnu-fpga-board-testing/source/key_handler.v
+Info (12021): Found 1 design units, including 1 entities, in source file /projects/scnu-fpga-board-testing/source/lib/key_handler.v
     Info (12023): Found entity 1: key_handler
-Info (12021): Found 3 design units, including 3 entities, in source file z:/projects/scnu-fpga-board-testing/source/seg.v
+Info (12021): Found 3 design units, including 3 entities, in source file /projects/scnu-fpga-board-testing/source/lib/seg.v
     Info (12023): Found entity 1: bcd2seg_ck
     Info (12023): Found entity 2: bcd2seg_ca
     Info (12023): Found entity 3: seg_display
-Info (12021): Found 1 design units, including 1 entities, in source file z:/projects/scnu-fpga-board-testing/source/clkdiv.v
+Info (12021): Found 1 design units, including 1 entities, in source file /projects/scnu-fpga-board-testing/source/lib/clkdiv.v
     Info (12023): Found entity 1: clkdiv
-Info (12021): Found 1 design units, including 1 entities, in source file z:/projects/scnu-fpga-board-testing/source/board_test.v
+Info (12021): Found 1 design units, including 1 entities, in source file /projects/scnu-fpga-board-testing/source/board_test.v
     Info (12023): Found entity 1: board_test
 Info (12127): Elaborating entity "board_test" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at board_test.v(64): truncated value with size 32 to match size of target (24)
@@ -380,14 +380,14 @@ Warning (21074): Design contains 5 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "key[4]"
     Warning (15610): No output dependent on input pin "key[5]"
     Warning (15610): No output dependent on input pin "key[6]"
-Info (21057): Implemented 268 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 269 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 9 input pins
     Info (21059): Implemented 22 output pins
-    Info (21061): Implemented 237 logic cells
+    Info (21061): Implemented 238 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 4635 megabytes
-    Info: Processing ended: Sun Aug 09 20:18:50 2020
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4636 megabytes
+    Info: Processing ended: Mon Aug 10 11:24:47 2020
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:08
 
 
